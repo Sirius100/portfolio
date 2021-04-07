@@ -1,0 +1,10 @@
+mixin header(item)
+	.container-fuild.mb-2.wrapper
+		.row.justify-content-center
+			header.col-12.col-lg-10.bg-dark.position-fixed.mb-2
+				.menu
+					.span_menu
+				ul.pl-0.mb-0.d-block.bg-dark
+					- for( var item_key in item)
+							li.nav-item.justify-content-center
+								a.nav-link(href=item[item_key])=item_key

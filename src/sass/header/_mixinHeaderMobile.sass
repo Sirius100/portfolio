@@ -1,0 +1,133 @@
+.wrapper
+	height: 100px
+header.col-12
+	position: relative
+	height: 100px
+	z-index: 10
+	&>.menu
+		position: relative
+		text-align: center
+		cursor: pointer
+		box-shadow: 0 -200px 100px -120px dark inset
+		top: 30px
+		left: 75vw
+		max-width: 40px
+		min-width: 40px
+		min-height: 40px
+		max-height: 40px
+		&:hover
+			animation: pointer_for_menu 3s infinite alternate
+
+
+	&>.menu::before,
+	.menu::after
+		content: ""
+		background: white
+		position: absolute
+		border-radius: 15%
+		left: 0
+		width: 40px
+		height: 5px
+		transition: transform .3s
+
+	&>.menu::before
+		top: 0
+
+	&>.menu::after
+		bottom: 0
+	&>.menu
+		&>.span_menu
+			position: absolute
+			background: white
+			border-radius: 15%
+			top: 18px
+			left: 0
+			width: 40px
+			height: 5px
+			transition: transform .3s
+
+	ul
+		position: absolute
+		top: 100px
+		width: 0
+		transition: all .5s
+		margin-left: -15px
+		overflow: hidden
+		z-index: -10
+
+header.col-12
+	&>.menu
+		&>.menu_active
+				transform: scale(0)
+	&>.menu_active::before
+			transform: rotate(-45deg)
+			top: 18px
+	&>.menu_active::after
+			transform: rotate(45deg)
+			bottom: 17px
+	&>ul.menu_active
+			width: 100%
+			z-index: 100
+
+header.col-12
+	>.menu_test
+		position: relative
+		text-align: center
+		border: 1px solid green
+		cursor: pointer
+		top: -10px
+		left: 55vw
+		max-width: 40px
+		min-width: 40px
+		min-height: 40px
+		max-height: 40px
+		>span
+			position: absolute
+			display: block
+			width: 38px
+			height: 2px
+			left: 0
+			top: 19px
+			background: white
+		>span::before,span::after
+			content: ""
+			position: absolute
+			display: block
+			width: 98%
+			height: 2px
+			background: white
+			left: 0
+		>span::before
+			top: -13px
+		>span::after
+			bottom: -13px
+
+header.col-12
+	ul
+		list-style-type: none
+header.col-12
+	a[href$="html"]
+		font-weight: 900
+		font-style: normal
+		font-variant: small-caps
+		font-size: 2ex
+		position: relative
+		&::first-letter
+				color: red
+		&::after
+				content: " "
+				width: 10px
+				height: 10px
+				position: absolute
+				top: 43%
+				margin-left: 3px
+				background: hsla(130,100%,50%,100%)
+
+// header.col-12
+// 	a::selection
+// 		color: red
+// 		background-color: yellow
+
+header.col-12
+	.menu_active
+		overflow-y: auto
