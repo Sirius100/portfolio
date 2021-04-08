@@ -1,25 +1,16 @@
-header.col-12
-	ul
-		list-style-type: none
-header.col-12
-	a[href$="html"]
-		font-weight: 900
-		font-style: normal
-		font-variant: small-caps
-		font-size: 2ex
-		position: relative
-		&::first-letter
-				color: red
-		&::after
-				content: " "
-				width: 10px
-				height: 10px
-				position: absolute
-				top: 43%
-				margin-left: 3px
-				background: hsla(130,100%,50%,100%)
+@import "../_var.sass"
 
-header.col-12
-	a::selection
-		color: red
-		background-color: yellow
+body
+	.container-fuild:nth-child(1)
+		background: $header_color3
+	nav
+		li
+			a.nav-link
+				font-family: TrainOneR, Arial, Helvetica, sans-serif
+				color: $header_txt_menu1!important
+				font-weight: bold
+				&:hover
+					text-shadow: 1px 1px 2px $header_txt_menu_hover3
+	.dropdown-menu
+		left: -50px
+		top: 53px
