@@ -1,3 +1,18 @@
+
+//файл переменных
+@import "_var.sass"
+
+//Fonts
+@font-face
+  font-family: TrainOneR
+  src: url('../font/TrainOneR.ttf')
+@font-face
+  font-family: Arimo
+  src: url('../font/Arimo-VariableFont_wght.ttf')
+@font-face
+  font-family: Lemonada
+  src: url('../font/Lemonada-VariableFont_wght.ttf')
+
 // import модулей bootstrap
 @import  "../../gulp/node_modules/bootstrap/scss/bootstrap-reboot"
 @import  "../../gulp/node_modules/bootstrap/scss/bootstrap-grid"
@@ -7,12 +22,9 @@
 
 
 
-//файл переменных
-@import "_var.sass"
 @import "_body.sass"
 @import "header/_header.sass"
+@import "home/_home.sass"
 
-//Fonts
-@font-face
-  font-family: TrainOneR
-  src: url('../font/TrainOneR.ttf')
+//import media request
+@import "_media.sass"
