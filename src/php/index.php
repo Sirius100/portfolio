@@ -40,12 +40,13 @@
     <div class="container-fuild">
       <div class="container">
         <div class="row mx-0 h-100 align-items-center">
-          <div class="col-12 col-sm-5 home_foto"></div>
-          <div class="col-12 col-sm-7 home_studio">
+          <div class="col-sm-12 col-md-5 home_foto"></div>
+          <div class="col-sm-12 col-md-7 home_studio">
             <p class="lead">Студия разработки<br><span>Leading</span></p>
             <p class="lead text-left">Веб-студия “LEADING” - это команда программистов, дизайнеров, копирайтеров, специалистов по продвижению, менеджеров, которые занимаются веб-разработкой и созданием Телеграм-ботов в Вологде и по всей России. Уже не новость, что сайт - это не только рабочий инструмент, но и показатель статуса компании, его деловой костюм, если хотите. Поэтому наша миссия  помочь вашему бизнесу, а наша приоритетная задача по проекту - создать сайт, который украсит наше портфолио.</p>
-            <button class="btn btn-secondary btn-lg">Оставить заявку</button>
-            <p class="lead mb-0">Мы открыты для плодотворного сотрудничества!</p>
+            <p class="lead mb-0">
+              <button class="btn btn-secondary btn-lg">Оставить заявку</button><br><span>Мы открыты для плодотворного сотрудничества!</span>
+            </p>
           </div>
         </div>
       </div>
