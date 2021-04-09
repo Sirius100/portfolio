@@ -1,0 +1,32 @@
+@import "../_var"
+@import "../mixins/_mixins.sass"
+
+.container-fuild:nth-child(3)
+	.container
+		h5,h6
+			color: black
+		h6
+			font-family: jura
+			margin-top: 1.5em
+			margin-bottom: 1.5em
+		h5
+			font-family: Inter
+
+		.card
+			color: black
+			margin-top: 2em
+			border: 0
+
+			h5
+				font-family: jura
+				margin-top: 1.5em
+			p
+				font-size: 90%
+			svg
+				fill: white
+		.card:nth-child(1) .card-body
+			@include card-bg($bg-color1)
+		.card:nth-child(2) .card-body
+			@include card-bg($bg-color2)
+		.card:nth-child(3) .card-body
+			@include card-bg($bg-color3)
