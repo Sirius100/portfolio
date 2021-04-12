@@ -3,10 +3,29 @@
 	display: flex
 	justify-content: center
 	align-items: center
-	max-width: 90px
-	max-height: 90px
-	min-width: 90px
-	min-height: 90px
+	max-width: 60px
+	max-height: 60px
+	min-width: 60px
+	min-height: 60px
 	border-radius: 50%
 	background: $bg-color
 	padding: 0 0
+
+@mixin future_card($bg-color)
+	border: solid 2px $bg-color
+	background: white
+	min-height: 334px
+	max-height: 40%
+	max-width: 32%
+	text-align: center
+	padding: 1.8em 1.8em
+	font-family: Roboto, sans-serif
+	font-weight: 700
+	font-size: 1em
+
+	p
+		font-family: 'Open Sans', sans-serif
+		font-style: italic
+		font-size: 1em
+		font-weight: 400
+		margin-top: 3em
