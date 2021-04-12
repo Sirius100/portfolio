@@ -115,7 +115,7 @@
     </div>
     <div class="container-fuild">
       <div class="container">
-        <div class="row flex-column text-center">
+        <div class="row mx-0 flex-column text-center">
           <h4>Key Features</h4>
           <h1 class="display-1">Designing for Positive Future</h1>
         </div>
@@ -146,6 +146,22 @@
             <h4>Support</h4>
             <p class="text-muted">Suspendisse vulputate eros in velit fermentum cursus. Nulla fringilla justo tellus, at sodales eros laoreet a. Quisque facilisis lorem augue, sit amet</p>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fuild">
+      <div class="container px-0">
+        <div class="row mx-0 justify-content-between my-3">
+          <div class="col-12 col-sm-4 pers_1"></div>
+          <div class="col-12 col-sm-4 pers_2"></div>
+          <div class="col-12 col-sm-4 pers_3"></div>
+        </div>
+        <div class="row mx-0 py-2">
+          <h2>Our Team</h2>
+          <p class="lead">
+            	Integer viverra ligula ornare ex commodo rutrum. Curabitur gravida ex in laoreet dignissim.
+            	Donec tristique faucibus lorem, eu varius neque iaculis at. Phasellus at rutrum mauris. Maecenas rutrum, velit nec suscipit mattis, tellus |lorem pellentesque ipsum, in commodo velit ipsum vitae tellus. Donec non urna diam. Sed auctor lectus eu metus consequat ultrices. Nullam |vehicula, turpis at ultrices condimentum, est tortor iaculis sapien, vel pellentesque odio augue ac metus
+          </p>
         </div>
       </div>
     </div>
