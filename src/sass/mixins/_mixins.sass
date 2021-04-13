@@ -30,9 +30,9 @@
 		font-weight: 400
 		margin-top: 3em
 
-@mixin pers-team($url-src-jpg)
-	max-height: 50vh
-	min-height: 50vh
+@mixin pers-team($url-src-jpg, $max-hgt:50vh, $min-hgt:50vh)
+	max-height: $max-hgt
+	min-height: $min-hgt
 	background-image: url($url-src-jpg)
 	background-size: 100% 100%
 	background-position: 50% 50%

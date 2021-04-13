@@ -171,7 +171,46 @@
         </div>
       </div>
     </div>
-    <div class="container-fuild"></div>
+    <div class="container-fuild">
+      <section class="container">
+        <div class="row mx-0 flex-column text-center mb-3">
+          <h4 class="display-4">	Our service</h4>
+          <p class="lead">	Phasellus scelerisque sed leo quis gravida. Fusce lobortis libero ut arcu blandit pharetra.</p>
+        </div>
+        <div class="row justify-content-between mb-2">
+          <div></div>
+          <div class="mx-2"></div>
+          <div></div>
+        </div>
+        <div class="row">
+          <div class="mr-1"></div>
+          <div class="ml-1"></div>
+        </div>
+      </section>
+    </div>
+    <div class="container-fuild">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 px-0 left_column">
+            <h1>We are<br>Creative<br>Design<br>Studio</h1>
+            <h5>Web Design & Development</h5>
+          </div>
+          <div class="col-12 col-sm-6 px-0 right_column">
+            <div class="fotograf"></div>
+            <div class="ilustaration">
+              <div class="row one mx-0">
+                <div class="flex-grow-1"></div>
+                <div class="flex-grow-1"></div>
+              </div>
+              <div class="row mx-0">
+                <div class="flex-grow-1"></div>
+                <div class="flex-grow-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="gulp/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="gulp/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="gulp/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
