@@ -2,12 +2,31 @@
 
 .container-fuild:nth-child(6)
   //height: 100vh
-  background: linear-gradient(to bottom left, $home_linear_gradient3, $home_linear_gradient2)
+  background: linear-gradient(to bottom left, $home_linear_gradient3, $bg-color2)
   padding-top: 2em
   padding-bottom: 2em
+  .col-12.col-sm-4
   .pers_1
     @include pers-team("../img/team1.jpg")
   .pers_2
     @include pers-team("../img/team2.jpg")
   .pers_3
     @include pers-team("../img/team3.jpg")
+  h2
+    font-family: Roboto, Arial, sans-serif
+    font-size: 1.8em
+    font-weight: bold
+    margin-top: .8em
+    margin-bottom: .8em
+
+
+  p.lead
+    font-family: 'Open Sans', sans-serif
+    font-style: normal
+    font-weight: 400
+    font-size: 1.05em
+    span
+      font-family: Roboto, sans-serif
+      font-style: normal
+      font-weight: bold
+      font-size: .88em

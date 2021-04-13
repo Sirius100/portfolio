@@ -151,20 +151,27 @@
     </div>
     <div class="container-fuild">
       <div class="container px-0">
-        <div class="row mx-0 justify-content-between my-3">
-          <div class="col-12 col-sm-4 pers_1"></div>
-          <div class="col-12 col-sm-4 pers_2"></div>
-          <div class="col-12 col-sm-4 pers_3"></div>
+        <div class="row justify-content-between my-3">
+          <div class="col-12 col-sm-4">
+            <div class="pers_1"></div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="pers_2"></div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="pers_3"></div>
+          </div>
         </div>
         <div class="row mx-0 py-2">
           <h2>Our Team</h2>
-          <p class="lead">
-            	Integer viverra ligula ornare ex commodo rutrum. Curabitur gravida ex in laoreet dignissim.
-            	Donec tristique faucibus lorem, eu varius neque iaculis at. Phasellus at rutrum mauris. Maecenas rutrum, velit nec suscipit mattis, tellus |lorem pellentesque ipsum, in commodo velit ipsum vitae tellus. Donec non urna diam. Sed auctor lectus eu metus consequat ultrices. Nullam |vehicula, turpis at ultrices condimentum, est tortor iaculis sapien, vel pellentesque odio augue ac metus
+          <p class="lead"><span>Integer viverra ligula ornare ex commodo rutrum. Curabitur gravida ex in laoreet dignissim.</span><br>Donec tristique faucibus lorem, eu varius neque iaculis at. Phasellus at rutrum mauris.
+            Maecenas rutrum, velit nec suscipit mattis, tellus  lorem pellentesque ipsum, in commodo velit ipsum vitae tellus.
+             Donec non urna diam. Sed auctor lectus eu metus consequat ultrices. Nullam vehicula, turpis at ultrices condimentum, est tortor iaculis sapien, vel pellentesque odio augue ac metus.
           </p>
         </div>
       </div>
     </div>
+    <div class="container-fuild"></div>
     <script src="gulp/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="gulp/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="gulp/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
