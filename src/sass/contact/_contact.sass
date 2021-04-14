@@ -1,0 +1,36 @@
+.container-fuild:nth-child(9)
+  padding: 3em 0
+  background: $header_color2
+  .row
+    .address_office,.number_phono, .email
+      min-height: 270px
+      max-height: 270px
+      justify-content: center
+      p
+        color: $header_txt_menu1
+        text-align: center
+        padding-top: 1em
+      .address_office_svg, .number_phono_svg, .email_svg
+        width: 95%
+        height: 95%
+        display: flex
+        flex-flow: column
+        justify-content: center
+        align-items: center
+
+        span
+          display: block
+          height: 60px
+          width: 60px
+          border-radius: 50%
+      .address_office_svg
+        span
+          background: $svg-color1
+      .number_phono_svg
+        span
+          background: $svg-color2
+      .email_svg
+        span
+          background: $svg-color3
+      svg
+        fill: white

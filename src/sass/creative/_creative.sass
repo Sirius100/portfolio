@@ -1,16 +1,29 @@
 .container-fuild:nth-child(8)
-  padding-top: 2.3em
-  padding-bottom: 2.3em
+  padding-top: 3.5em
+  padding-bottom: 3.5em
   background: linear-gradient(to bottom left, $home_linear_gradient3, $bg-color2)
   .row
     .left_column,.right_column
+      box-sizing: border-box
       min-height: 79vh
 
     .left_column
       background: linear-gradient(to left bottom, $bg-color1, $bg-color3)
+      .left_column_container
+        padding-top: 6.5em
+        padding-bottom: 3em
+
       h1
         font-weight: 700
         font-family: Roboto, sans-serif
+        margin-left: 1em
+      h5
+        font-weight: 700
+        font-family: Roboto, sans-serif
+        font-size: 1.2em
+        margin: 2.7em auto 2.7em 2em
+      button.btn.btn-outline-dark
+        margin-left: 2.5em
 
     .right_column
       .fotograf
