@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
   <head>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/style.min.css">
     <!--link(rel='preconnect' href='https://fonts.gstatic.com')-->
     <!--link(href='https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap' rel='stylesheet')-->
     <meta charset="utf-8">
