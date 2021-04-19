@@ -13,13 +13,13 @@
 
 		.card
 			background: $card_color3
-			width: 33%
+			height: 85%
 			color: black
 			margin-top: 2em
 			border: 0
 			padding-left: 3em
 			padding-top: .4em
-			padding-bottom: .2em
+			padding-bottom: 2.2em
 
 			h5
 				font-family: jura
@@ -28,9 +28,12 @@
 				font-size: 95%
 			svg
 				fill: white
-		.card:nth-child(1) .card-body
-			@include card-bg($bg-color1)
-		.card:nth-child(2) .card-body
-			@include card-bg($bg-color2)
-		.card:nth-child(3) .card-body
-			@include card-bg($bg-color3)
+		.col-12.col-sm-4:nth-child(1)
+			.card .card-body
+				@include card-bg($bg-color1)
+		.col-12.col-sm-4:nth-child(2)
+			.card .card-body
+				@include card-bg($bg-color2)
+		.col-12.col-sm-4:nth-child(3)
+			.card .card-body
+				@include card-bg($bg-color3)

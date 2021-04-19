@@ -9,19 +9,17 @@
 
 	//section home
 	.container-fuild:nth-child(2)
-		.home_foto
-			height: 55vh
-
 		.home_studio
-			p:nth-child(1)
+
+			p.lead:nth-child(1)
 				margin-bottom: 0
-			p:nth-child(2)
+				font-size: 120%
+				span
+					font-size: 450%
+			p.lead:nth-child(2)
 				font-size: 100%
-				margin-bottom: .5%
-			p:nth-of-type(3)
+			p.lead:nth-of-type(3)
 				font-size: 100%
-				position: absolute
-				bottom: 0
 				button
 					margin-bottom: 2%
 
@@ -36,6 +34,11 @@
 			.row
 				padding-left: 1em
 				padding-right: 1em
+				h5.display-5
+					margin-top: .5em
+					margin-left: -1.5em
+				p.lead
+					margin-left: -1.5em
 
 	//section timemenedg
 	.container-fuild:nth-child(4)
@@ -61,9 +64,16 @@
 
 
 //section timemenedg
-@media (min-width: 1024px)
+@media (min-width: 1025px)
 	.container-fuild:nth-child(4)
 		.container,.row
 			max-width: 100%
 			padding: 0
 			margin: 0
+	.container-fuild:nth-child(8)
+		.row
+			.right_column
+				.ilustaration
+					.row:nth-child(1),.row:nth-child(2)
+						min-height: 157.5px
+						max-height: 157.5px
